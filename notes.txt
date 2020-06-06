@@ -1,0 +1,21 @@
+Two factor authentication: e.g varification through phone
+HTML: Recreating the website from source code available @ client side (may be from chrome)
+Cryptography: Key + Plain text = Ciphertext
+Public Key Crytography:  (public key+private key) 
+public key is used to only encrypt text
+private kye in used to only decrypt text
+
+SQL Injection: inject arbitrary sql logi to get data
+Solution: make sure escaping some char entered by ueser 
+API: to make it secure use api key. api key can help us for rate limiting as well as security
+JS security vulnerability: 
+(a) cross site scripting: js is injected from client side; may be from input field. 
+Chrome has built in auditor for this purpose.  
+CSRF: corss site request forgery; django uses csrf_token for this purpose.
+don't use get request to post data: its a security risk
+DoS : Denial of service:making request from a particular computer
+DDoS: distributed DoS: making request from arbitrary computers 
+
+
+
+
